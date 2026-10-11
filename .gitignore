@@ -1,0 +1,40 @@
+# Secrets & personal settings
+.env
+.cache
+cookies.txt
+
+# Generated data: library JSON files, failed_*.json, logs
+data/
+*.log
+*.log.*
+*.tmp
+
+# Downloaded music
+downloads/
+
+# FFmpeg binaries (download them yourself, see README)
+ffmpeg
+ffprobe
+ffmpeg.exe
+ffprobe.exe
+ffplay.exe
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
